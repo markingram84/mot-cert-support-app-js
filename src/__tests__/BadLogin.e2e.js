@@ -1,3 +1,5 @@
+const { expect, browser, $ } = require('@wdio/globals')
+
 describe('My Login application', () => {
 
     it('should not login with invalid credentials', async () => {
