@@ -30,4 +30,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Second Try
+## CI/CD
+
+On every push to the repo a pipeline will run that has Unit tests, E2E tests and also some reporting.
