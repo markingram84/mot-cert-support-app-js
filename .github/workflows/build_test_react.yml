@@ -19,7 +19,7 @@ jobs:
      - name: Unit checks
        run: |
          npm ci
-         npm test
+         npm test -- --reporters=jest-junit
      - name: E2E checks
        run: |
          npm start &
