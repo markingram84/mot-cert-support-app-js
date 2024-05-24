@@ -28,7 +28,7 @@ jobs:
      - name: Build production artifacts
        run: |
          npm run build --if-present
-         - name: Publish Test Results
+      - name: Publish Test Results
          uses: EnricoMi/publish-unit-test-result-action/composite@v2
          if: always()
          with:
